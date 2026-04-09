@@ -1,0 +1,4 @@
+params:
+  batch_size_per_gpu: 2
+  num_workers: 1
+  pin_memory: false

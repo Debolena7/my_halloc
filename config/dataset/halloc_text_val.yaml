@@ -1,0 +1,8 @@
+defaults:
+  - _default
+
+name: halloc
+
+params:
+  file_paths: /DATA/ai20resch11003/my_halloc/data/val/vlm_embeddings/internvl/
+  all_flag: false
