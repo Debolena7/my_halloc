@@ -13,4 +13,6 @@ logs/
 
 outputs/
 InternVL/
-data/
+data/val
+data/train
+data/test
