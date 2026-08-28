@@ -4,7 +4,7 @@ An adaptation of **HalLoc / HalLocalizer** — *"HalLoc: Token-level Hallucinati
 Localization for Vision-Language Models"* (Park, Kim & Kim, CVPR 2025,
 [paper](https://openaccess.thecvf.com/content/CVPR2025/html/Park_HalLoc_Token-level_Localization_of_Hallucinations_for_Vision_Language_Models_CVPR_2025_paper.html),
 [original code](https://github.com/dbsltm/cvpr25_halloc)) — retargeted from the
-original HalLoc benchmark onto **[our LID dataset](https://huggingface.co/datasets/NLIP-lab/LID)**.
+original HalLoc benchmark onto **[our LID dataset](https://huggingface.co/datasets/NLIP-lab/LID)** of [Aerial Mirage (WACV 2025)](https://openaccess.thecvf.com/content/WACV2025/papers/Basak_Aerial_Mirage_Unmasking_Hallucinations_in_Large_Vision_Language_Models_WACV_2025_paper.pdf), [GitHub link](https://github.com/Debolena7/Aerial_Mirage).
 
 This repo trains and evaluates the hallucination detector on annotations from the LID dataset.
 
@@ -256,7 +256,7 @@ Our implementation is adapted from [HalLoc](https://github.com/dbsltm/cvpr25_hal
 
 ## Citation
 
-If you use this code, please cite our paper (citation will be updated soon) and the original HalLoc paper:
+If you use this code adaptation, please cite our paper (citation will be updated soon) and the original HalLoc paper:
 
 ```bibtex
 @inproceedings{park2025halloc,
