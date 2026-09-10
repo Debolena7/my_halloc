@@ -59,6 +59,12 @@ def compute_metrics(file_path):
             data = json.loads(line)
             
             true_set = clean_and_lemmatize(data.get('labels', ''))
+
+            # Omit non-hal samples entirely ## newly added for rebuttal
+            if true_set == {"__no_hallucination__"}:
+               continue
+            ## newly added for rebuttal
+
             pred_set = clean_and_lemmatize(data.get('response', ''))
             
             y_true.append(list(true_set))
